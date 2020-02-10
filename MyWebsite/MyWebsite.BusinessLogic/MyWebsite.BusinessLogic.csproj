@@ -57,9 +57,13 @@
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.Config" />
     <None Include="MyWebsiteDb.edmx.diagram">
       <DependentUpon>MyWebsiteDb.edmx</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WorkInProgress.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

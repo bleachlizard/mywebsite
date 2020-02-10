@@ -5,11 +5,101 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+    <Content Remove="wwwroot\images\about-bg.jpg" />
+    <Content Remove="wwwroot\images\about-mission.jpg" />
+    <Content Remove="wwwroot\images\about-plan.jpg" />
+    <Content Remove="wwwroot\images\about-vision.jpg" />
+    <Content Remove="wwwroot\images\apple-touch-icon.png" />
+    <Content Remove="wwwroot\images\call-to-action-bg.jpg" />
+    <Content Remove="wwwroot\images\clients\client-1.png" />
+    <Content Remove="wwwroot\images\clients\client-2.png" />
+    <Content Remove="wwwroot\images\clients\client-3.png" />
+    <Content Remove="wwwroot\images\clients\client-4.png" />
+    <Content Remove="wwwroot\images\clients\client-5.png" />
+    <Content Remove="wwwroot\images\clients\client-6.png" />
+    <Content Remove="wwwroot\images\clients\client-7.png" />
+    <Content Remove="wwwroot\images\clients\client-8.png" />
+    <Content Remove="wwwroot\images\facts-bg.jpg" />
+    <Content Remove="wwwroot\images\facts-img.png" />
+    <Content Remove="wwwroot\images\favicon.png" />
+    <Content Remove="wwwroot\images\intro-carousel\1.jpg" />
+    <Content Remove="wwwroot\images\intro-carousel\2.jpg" />
+    <Content Remove="wwwroot\images\intro-carousel\3.jpg" />
+    <Content Remove="wwwroot\images\intro-carousel\4.jpg" />
+    <Content Remove="wwwroot\images\intro-carousel\5.jpg" />
+    <Content Remove="wwwroot\images\portfolio\app1.jpg" />
+    <Content Remove="wwwroot\images\portfolio\app2.jpg" />
+    <Content Remove="wwwroot\images\portfolio\app3.jpg" />
+    <Content Remove="wwwroot\images\portfolio\card1.jpg" />
+    <Content Remove="wwwroot\images\portfolio\card2.jpg" />
+    <Content Remove="wwwroot\images\portfolio\card3.jpg" />
+    <Content Remove="wwwroot\images\portfolio\web1.jpg" />
+    <Content Remove="wwwroot\images\portfolio\web2.jpg" />
+    <Content Remove="wwwroot\images\portfolio\web3.jpg" />
+    <Content Remove="wwwroot\images\preloader.gif" />
+    <Content Remove="wwwroot\images\quote-sign-left.png" />
+    <Content Remove="wwwroot\images\quote-sign-right.png" />
+    <Content Remove="wwwroot\images\team-1.jpg" />
+    <Content Remove="wwwroot\images\team-2.jpg" />
+    <Content Remove="wwwroot\images\team-3.jpg" />
+    <Content Remove="wwwroot\images\team-4.jpg" />
+    <Content Remove="wwwroot\images\testimonial-1.jpg" />
+    <Content Remove="wwwroot\images\testimonial-2.jpg" />
+    <Content Remove="wwwroot\images\testimonial-3.jpg" />
+    <Content Remove="wwwroot\images\testimonial-4.jpg" />
+    <Content Remove="wwwroot\images\testimonial-5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MyWebsite.BusinessLogic\MyWebsite.BusinessLogic.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Templates\" />
+    <None Include="compilerconfig.json" />
+    <None Include="wwwroot\images\about-bg.jpg" />
+    <None Include="wwwroot\images\about-mission.jpg" />
+    <None Include="wwwroot\images\about-plan.jpg" />
+    <None Include="wwwroot\images\about-vision.jpg" />
+    <None Include="wwwroot\images\apple-touch-icon.png" />
+    <None Include="wwwroot\images\call-to-action-bg.jpg" />
+    <None Include="wwwroot\images\clients\client-1.png" />
+    <None Include="wwwroot\images\clients\client-2.png" />
+    <None Include="wwwroot\images\clients\client-3.png" />
+    <None Include="wwwroot\images\clients\client-4.png" />
+    <None Include="wwwroot\images\clients\client-5.png" />
+    <None Include="wwwroot\images\clients\client-6.png" />
+    <None Include="wwwroot\images\clients\client-7.png" />
+    <None Include="wwwroot\images\clients\client-8.png" />
+    <None Include="wwwroot\images\facts-bg.jpg" />
+    <None Include="wwwroot\images\facts-img.png" />
+    <None Include="wwwroot\images\favicon.png" />
+    <None Include="wwwroot\images\intro-carousel\1.jpg" />
+    <None Include="wwwroot\images\intro-carousel\2.jpg" />
+    <None Include="wwwroot\images\intro-carousel\3.jpg" />
+    <None Include="wwwroot\images\intro-carousel\4.jpg" />
+    <None Include="wwwroot\images\intro-carousel\5.jpg" />
+    <None Include="wwwroot\images\portfolio\app1.jpg" />
+    <None Include="wwwroot\images\portfolio\app2.jpg" />
+    <None Include="wwwroot\images\portfolio\app3.jpg" />
+    <None Include="wwwroot\images\portfolio\card1.jpg" />
+    <None Include="wwwroot\images\portfolio\card2.jpg" />
+    <None Include="wwwroot\images\portfolio\card3.jpg" />
+    <None Include="wwwroot\images\portfolio\web1.jpg" />
+    <None Include="wwwroot\images\portfolio\web2.jpg" />
+    <None Include="wwwroot\images\portfolio\web3.jpg" />
+    <None Include="wwwroot\images\preloader.gif" />
+    <None Include="wwwroot\images\quote-sign-left.png" />
+    <None Include="wwwroot\images\quote-sign-right.png" />
+    <None Include="wwwroot\images\team-1.jpg" />
+    <None Include="wwwroot\images\team-2.jpg" />
+    <None Include="wwwroot\images\team-3.jpg" />
+    <None Include="wwwroot\images\team-4.jpg" />
+    <None Include="wwwroot\images\testimonial-1.jpg" />
+    <None Include="wwwroot\images\testimonial-2.jpg" />
+    <None Include="wwwroot\images\testimonial-3.jpg" />
+    <None Include="wwwroot\images\testimonial-4.jpg" />
+    <None Include="wwwroot\images\testimonial-5.jpg" />
   </ItemGroup>
 
 

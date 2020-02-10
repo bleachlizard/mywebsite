@@ -1,0 +1,1 @@
+﻿This is currently a work in progress. I am working on a CMS for my website, so for now all the content is static.
