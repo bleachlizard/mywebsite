@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MyWebsiteDb" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="MyWebsiteDbContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Pages" EntityType="MyWebsiteDb.Page" />
+    <EntitySet Name="ContentParts" EntityType="MyWebsiteDb.ContentPart" />
+    <AssociationSet Name="PageContentPart" Association="MyWebsiteDb.PageContentPart">
+      <End Role="Page" EntitySet="Pages" />
+      <End Role="ContentPart" EntitySet="ContentParts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Page">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <NavigationProperty Name="ContentParts" Relationship="MyWebsiteDb.PageContentPart" FromRole="Page" ToRole="ContentPart" />
+    <Property Name="PageType" Type="String" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" />
+    <Property Name="MetaKeywords" Type="String" Nullable="false" />
+    <Property Name="MetaDescription" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContentPart">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <NavigationProperty Name="Page" Relationship="MyWebsiteDb.PageContentPart" FromRole="ContentPart" ToRole="Page" />
+    <Property Name="ContentType" Type="String" Nullable="false" />
+    <Property Name="Content" Type="String" Nullable="false" />
+    <Property Name="ContainsHtml" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="PageContentPart">
+    <End Type="MyWebsiteDb.Page" Role="Page" Multiplicity="1" />
+    <End Type="MyWebsiteDb.ContentPart" Role="ContentPart" Multiplicity="*" />
+  </Association>
+</Schema>

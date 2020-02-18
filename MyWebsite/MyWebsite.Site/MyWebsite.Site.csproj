@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Templates\**" />
+    <Content Remove="Templates\**" />
+    <EmbeddedResource Remove="Templates\**" />
+    <None Remove="Templates\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="compilerconfig.json" />
     <Content Remove="wwwroot\images\about-bg.jpg" />
     <Content Remove="wwwroot\images\about-mission.jpg" />
@@ -49,6 +56,56 @@
     <Content Remove="wwwroot\images\testimonial-3.jpg" />
     <Content Remove="wwwroot\images\testimonial-4.jpg" />
     <Content Remove="wwwroot\images\testimonial-5.jpg" />
+    <Content Remove="wwwroot\lib\animate\animate.css" />
+    <Content Remove="wwwroot\lib\animate\animate.min.css" />
+    <Content Remove="wwwroot\lib\counterup\counterup.min.js" />
+    <Content Remove="wwwroot\lib\easing\easing.js" />
+    <Content Remove="wwwroot\lib\easing\easing.min.js" />
+    <Content Remove="wwwroot\lib\font-awesome\css\font-awesome.css" />
+    <Content Remove="wwwroot\lib\font-awesome\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Remove="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Remove="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Remove="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Remove="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Remove="wwwroot\lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Remove="wwwroot\lib\ionicons\css\ionicons.css" />
+    <Content Remove="wwwroot\lib\ionicons\css\ionicons.min.css" />
+    <Content Remove="wwwroot\lib\ionicons\fonts\ionicons.eot" />
+    <Content Remove="wwwroot\lib\ionicons\fonts\ionicons.svg" />
+    <Content Remove="wwwroot\lib\ionicons\fonts\ionicons.ttf" />
+    <Content Remove="wwwroot\lib\ionicons\fonts\ionicons.woff" />
+    <Content Remove="wwwroot\lib\isotope\isotope.pkgd.js" />
+    <Content Remove="wwwroot\lib\isotope\isotope.pkgd.min.js" />
+    <Content Remove="wwwroot\lib\lightbox\css\lightbox.css" />
+    <Content Remove="wwwroot\lib\lightbox\css\lightbox.min.css" />
+    <Content Remove="wwwroot\lib\lightbox\images\close.png" />
+    <Content Remove="wwwroot\lib\lightbox\images\loading.gif" />
+    <Content Remove="wwwroot\lib\lightbox\images\next.png" />
+    <Content Remove="wwwroot\lib\lightbox\images\prev.png" />
+    <Content Remove="wwwroot\lib\lightbox\js\lightbox.js" />
+    <Content Remove="wwwroot\lib\lightbox\js\lightbox.min.js" />
+    <Content Remove="wwwroot\lib\lightbox\links.php" />
+    <Content Remove="wwwroot\lib\owlcarousel\assets\ajax-loader.gif" />
+    <Content Remove="wwwroot\lib\owlcarousel\assets\owl.carousel.css" />
+    <Content Remove="wwwroot\lib\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Remove="wwwroot\lib\owlcarousel\assets\owl.theme.default.css" />
+    <Content Remove="wwwroot\lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Remove="wwwroot\lib\owlcarousel\assets\owl.theme.green.css" />
+    <Content Remove="wwwroot\lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Remove="wwwroot\lib\owlcarousel\assets\owl.video.play.png" />
+    <Content Remove="wwwroot\lib\owlcarousel\LICENSE" />
+    <Content Remove="wwwroot\lib\owlcarousel\owl.carousel.js" />
+    <Content Remove="wwwroot\lib\owlcarousel\owl.carousel.min.js" />
+    <Content Remove="wwwroot\lib\superfish\hoverIntent.js" />
+    <Content Remove="wwwroot\lib\superfish\superfish.js" />
+    <Content Remove="wwwroot\lib\superfish\superfish.min.js" />
+    <Content Remove="wwwroot\lib\touchSwipe\jquery.touchSwipe.js" />
+    <Content Remove="wwwroot\lib\touchSwipe\jquery.touchSwipe.min.js" />
+    <Content Remove="wwwroot\lib\waypoints\links.php" />
+    <Content Remove="wwwroot\lib\waypoints\waypoints.min.js" />
+    <Content Remove="wwwroot\lib\wow\wow.js" />
+    <Content Remove="wwwroot\lib\wow\wow.min.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -100,6 +157,56 @@
     <None Include="wwwroot\images\testimonial-3.jpg" />
     <None Include="wwwroot\images\testimonial-4.jpg" />
     <None Include="wwwroot\images\testimonial-5.jpg" />
+    <None Include="wwwroot\lib\animate\animate.css" />
+    <None Include="wwwroot\lib\animate\animate.min.css" />
+    <None Include="wwwroot\lib\counterup\counterup.min.js" />
+    <None Include="wwwroot\lib\easing\easing.js" />
+    <None Include="wwwroot\lib\easing\easing.min.js" />
+    <None Include="wwwroot\lib\font-awesome\css\font-awesome.css" />
+    <None Include="wwwroot\lib\font-awesome\css\font-awesome.min.css" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\lib\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\lib\ionicons\css\ionicons.css" />
+    <None Include="wwwroot\lib\ionicons\css\ionicons.min.css" />
+    <None Include="wwwroot\lib\ionicons\fonts\ionicons.eot" />
+    <None Include="wwwroot\lib\ionicons\fonts\ionicons.svg" />
+    <None Include="wwwroot\lib\ionicons\fonts\ionicons.ttf" />
+    <None Include="wwwroot\lib\ionicons\fonts\ionicons.woff" />
+    <None Include="wwwroot\lib\isotope\isotope.pkgd.js" />
+    <None Include="wwwroot\lib\isotope\isotope.pkgd.min.js" />
+    <None Include="wwwroot\lib\lightbox\css\lightbox.css" />
+    <None Include="wwwroot\lib\lightbox\css\lightbox.min.css" />
+    <None Include="wwwroot\lib\lightbox\images\close.png" />
+    <None Include="wwwroot\lib\lightbox\images\loading.gif" />
+    <None Include="wwwroot\lib\lightbox\images\next.png" />
+    <None Include="wwwroot\lib\lightbox\images\prev.png" />
+    <None Include="wwwroot\lib\lightbox\js\lightbox.js" />
+    <None Include="wwwroot\lib\lightbox\js\lightbox.min.js" />
+    <None Include="wwwroot\lib\lightbox\links.php" />
+    <None Include="wwwroot\lib\owlcarousel\assets\ajax-loader.gif" />
+    <None Include="wwwroot\lib\owlcarousel\assets\owl.carousel.css" />
+    <None Include="wwwroot\lib\owlcarousel\assets\owl.carousel.min.css" />
+    <None Include="wwwroot\lib\owlcarousel\assets\owl.theme.default.css" />
+    <None Include="wwwroot\lib\owlcarousel\assets\owl.theme.default.min.css" />
+    <None Include="wwwroot\lib\owlcarousel\assets\owl.theme.green.css" />
+    <None Include="wwwroot\lib\owlcarousel\assets\owl.theme.green.min.css" />
+    <None Include="wwwroot\lib\owlcarousel\assets\owl.video.play.png" />
+    <None Include="wwwroot\lib\owlcarousel\LICENSE" />
+    <None Include="wwwroot\lib\owlcarousel\owl.carousel.js" />
+    <None Include="wwwroot\lib\owlcarousel\owl.carousel.min.js" />
+    <None Include="wwwroot\lib\superfish\hoverIntent.js" />
+    <None Include="wwwroot\lib\superfish\superfish.js" />
+    <None Include="wwwroot\lib\superfish\superfish.min.js" />
+    <None Include="wwwroot\lib\touchSwipe\jquery.touchSwipe.js" />
+    <None Include="wwwroot\lib\touchSwipe\jquery.touchSwipe.min.js" />
+    <None Include="wwwroot\lib\waypoints\links.php" />
+    <None Include="wwwroot\lib\waypoints\waypoints.min.js" />
+    <None Include="wwwroot\lib\wow\wow.js" />
+    <None Include="wwwroot\lib\wow\wow.min.js" />
   </ItemGroup>
 
 

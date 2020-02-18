@@ -1,0 +1,5 @@
+C:\Users\paul3077\source\repos\mywebsite\MyWebsite\MyWebsite.BusinessLogic\bin\Debug\MyWebsite.BusinessLogic.dll.config
+C:\Users\paul3077\source\repos\mywebsite\MyWebsite\MyWebsite.BusinessLogic\bin\Debug\MyWebsite.BusinessLogic.dll
+C:\Users\paul3077\source\repos\mywebsite\MyWebsite\MyWebsite.BusinessLogic\bin\Debug\MyWebsite.BusinessLogic.pdb
+C:\Users\paul3077\source\repos\mywebsite\MyWebsite\MyWebsite.BusinessLogic\obj\Debug\MyWebsite.BusinessLogic.dll
+C:\Users\paul3077\source\repos\mywebsite\MyWebsite\MyWebsite.BusinessLogic\obj\Debug\MyWebsite.BusinessLogic.pdb
